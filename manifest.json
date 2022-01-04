@@ -11,9 +11,9 @@
       "48" : "./icons/icon48.png",
       "128" : "./icons/icon128.png"
     },
-    "default_popup": "index.html"
+    "default_popup": "wrong-site.html"
   },
-  "permissions": ["activeTab", "contextMenus", "scripting","tabs","<all_urls>"],
+  "permissions": ["activeTab", "contextMenus", "scripting","tabs"],
   "background": {
     "service_worker": "background.js"
   },
